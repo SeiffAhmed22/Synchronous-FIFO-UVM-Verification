@@ -49,3 +49,10 @@ The verification plan is designed to thoroughly test the FIFO in the following a
     ```
     vsim -do run.do
     ```
+
+## Reports
+- **Code Coverage Report**: Displays which parts of the FIFO design were covered during the tests.
+- **Functional Coverage Report**: Indicates how well the verification plan's functional goals were met.
+
+## Conclusion
+This UVM-based verification project ensures the FIFO design behaves correctly under a variety of conditions. The comprehensive use of constrained random stimulus, assertions, and functional coverage allows for robust verification of the design.
